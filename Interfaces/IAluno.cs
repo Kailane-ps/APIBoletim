@@ -11,7 +11,7 @@ namespace APIBoletimTarde.Interfaces
         Aluno Cadastrar(Aluno a);
         List<Aluno> LerTodos();
         Aluno BuscarPorId(int id);
-        Aluno Alterar(Aluno a);
-        Aluno Excluir(Aluno a);
+        Aluno Alterar(int id, Aluno a);
+        void Excluir(int id);
     }
 }
